@@ -3,7 +3,6 @@ import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
-import walavieLogoPath from '../../assets/walavie_logo.jpg';
 
 interface NavItem {
   label: string;
@@ -40,7 +39,7 @@ export const Header = ({ className }: HeaderProps) => {
         <div className="flex items-center">
           <a href="#" className="flex items-center">
             <img 
-              src={walavieLogoPath} 
+              src="/assets/walavie_logo.jpg" 
               alt="Walavie Logo" 
               className="h-10 mr-2"
             />

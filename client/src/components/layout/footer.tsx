@@ -12,8 +12,12 @@ export const Footer = ({ className }: FooterProps) => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
-            <div className="text-primary font-mono font-bold text-xl tracking-tight mb-4">
-              <span className="text-secondary">&gt;</span> Walavie
+            <div className="flex items-center mb-4">
+              <img 
+                src="/assets/walavie_logo.jpg" 
+                alt="Walavie Logo" 
+                className="h-8 mr-2"
+              />
             </div>
             <p className="text-gray-400 mb-4">
               The next-generation platform with powerful terminal and graphical capabilities for developers and tech professionals.

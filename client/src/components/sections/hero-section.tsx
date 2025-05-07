@@ -61,11 +61,20 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <img 
-              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
-              alt="Futuristic terminal interface" 
-              className="rounded-lg shadow-xl w-full h-auto border border-gray-700 animate-float"
-            />
+            <div className="relative rounded-lg shadow-xl border border-gray-700 overflow-hidden animate-float">
+              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70">
+                <img 
+                  src="/assets/walavie_logo.jpg" 
+                  alt="Walavie Logo" 
+                  className="h-24 md:h-32 object-contain"
+                />
+              </div>
+              <img 
+                src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
+                alt="Futuristic terminal interface" 
+                className="w-full h-auto opacity-50"
+              />
+            </div>
             <motion.div 
               className="absolute -bottom-4 -right-4 bg-zinc-900 p-4 rounded-lg border border-gray-700 shadow-lg max-w-xs"
               initial={{ opacity: 0, y: 20 }}
