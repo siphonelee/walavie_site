@@ -3,6 +3,7 @@ import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import walavieLogoPath from '../../assets/walavie_logo.jpg';
 
 interface NavItem {
   label: string;
@@ -37,9 +38,13 @@ export const Header = ({ className }: HeaderProps) => {
     <header className={cn("relative z-10", className)}>
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <div className="text-primary font-mono font-bold text-xl tracking-tight">
-            <span className="text-secondary">&gt;</span> Walavie
-          </div>
+          <a href="#" className="flex items-center">
+            <img 
+              src={walavieLogoPath} 
+              alt="Walavie Logo" 
+              className="h-10 mr-2"
+            />
+          </a>
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
