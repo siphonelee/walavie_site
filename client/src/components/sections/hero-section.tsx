@@ -62,15 +62,8 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <div className="relative rounded-lg shadow-xl border border-gray-700 overflow-hidden animate-float">
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70">
-                <img 
-                  src="/assets/walavie_logo.jpg" 
-                  alt="Walavie Logo" 
-                  className="h-24 md:h-32 object-contain"
-                />
-              </div>
               <img 
-                src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
+                src="/assets/walavie-screenshot.png" 
                 alt="Futuristic terminal interface" 
                 className="w-full h-auto opacity-50"
               />
@@ -86,8 +79,8 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
                   <i className="ri-terminal-line text-black"></i>
                 </div>
                 <div>
-                  <h3 className="font-medium text-sm">Smart Terminal</h3>
-                  <p className="text-xs text-gray-400">AI-powered autocomplete and syntax suggestions</p>
+                  <h3 className="font-medium text-sm">One-stop Smart Terminal</h3>
+                  <p className="text-xs text-gray-400">Stop context switching by bringing context into your terminal</p>
                 </div>
               </div>
             </motion.div>

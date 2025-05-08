@@ -19,7 +19,9 @@ export const Header = ({ className }: HeaderProps) => {
   const navItems: NavItem[] = [
     { label: 'Features', href: '#features' },
     { label: 'Integrations', href: '#integrations' },
+    /* calvin 
     { label: 'Terminal Demo', href: '#demo' },
+    */
     { label: 'Testimonials', href: '#testimonials' }
   ];
 
@@ -41,7 +43,7 @@ export const Header = ({ className }: HeaderProps) => {
             <img 
               src="/assets/walavie_logo.jpg" 
               alt="Walavie Logo" 
-              className="h-10 mr-2"
+              className="h-28 mr-2"
             />
           </a>
         </div>

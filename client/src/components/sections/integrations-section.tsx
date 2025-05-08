@@ -90,69 +90,7 @@ const terminal = walavie.createTerminal('#terminal-container');`;
           ))}
         </motion.div>
         
-        <div className="bg-zinc-900 rounded-xl p-6 md:p-8 border border-gray-700 shadow-xl">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            >
-              <h3 className="text-2xl font-bold mb-4">
-                Open API for Custom Integrations
-              </h3>
-              <p className="text-gray-300 mb-6">
-                Our flexible API allows you to connect Walavie with virtually any development tool or platform in your workflow.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="bg-primary bg-opacity-10 p-1.5 rounded-lg">
-                    <i className="ri-check-line text-primary"></i>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Simple Authentication</h4>
-                    <p className="text-sm text-gray-400">Secure API key and OAuth authentication</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="bg-primary bg-opacity-10 p-1.5 rounded-lg">
-                    <i className="ri-check-line text-primary"></i>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Bidirectional Sync</h4>
-                    <p className="text-sm text-gray-400">Real-time synchronization between tools</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="bg-primary bg-opacity-10 p-1.5 rounded-lg">
-                    <i className="ri-check-line text-primary"></i>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Event-driven Architecture</h4>
-                    <p className="text-sm text-gray-400">Subscribe to events for automated workflows</p>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-8">
-                <a href="#" className="inline-flex items-center text-primary hover:underline">
-                  View API Documentation <i className="ri-external-link-line ml-1"></i>
-                </a>
-              </div>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              <CodeBlock 
-                code={integrationCode}
-                filename="walavie-integration.js"
-              />
-            </motion.div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

@@ -16,13 +16,8 @@ export const FeaturesSection = ({ className }: FeaturesSectionProps) => {
   const features: Feature[] = [
     {
       icon: "ri-terminal-box-line",
-      title: "Intelligent Terminal",
-      description: "Smart terminal with syntax highlighting, autocomplete, and AI-assisted command suggestions."
-    },
-    {
-      icon: "ri-code-line",
-      title: "Code Editor",
-      description: "Feature-rich code editor with support for multiple languages, themes, and extensions."
+      title: "Manage Remote Machines",
+      description: "Quickly switch between remote servers and clusters with SSH connection manager (with WSL support)."
     },
     {
       icon: "ri-dashboard-3-line",
@@ -31,8 +26,8 @@ export const FeaturesSection = ({ className }: FeaturesSectionProps) => {
     },
     {
       icon: "ri-git-branch-line",
-      title: "Version Control",
-      description: "Seamless integration with Git and other version control systems for efficient collaboration."
+      title: "Work with Remote Files",
+      description: "Navigate directories, preview markdown and images, and manage files on remote machines."
     },
     {
       icon: "ri-share-network-line",
@@ -41,8 +36,18 @@ export const FeaturesSection = ({ className }: FeaturesSectionProps) => {
     },
     {
       icon: "ri-robot-line",
+      title: "Reliable storage",
+      description: "Sui & Walrus as the backend service to ensure secure, highly available, decentralized data storage."
+    },
+    {
+      icon: "ri-robot-line",
       title: "AI Assistant",
-      description: "Built-in AI assistant for code generation, debugging, and optimizing your workflow."
+      description: "Built-in AI assistant, with MCP-style file operations supported."
+    },
+    {
+      icon: "ri-robot-line",
+      title: "Inline Web Browser",
+      description: "Built-in web browser to access Github, StackOverflow, dashboards, and your own apps."
     }
   ];
 

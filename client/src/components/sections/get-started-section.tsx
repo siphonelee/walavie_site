@@ -122,7 +122,7 @@ export const GetStartedSection = ({ className }: GetStartedSectionProps) => {
                 Ready to Enhance Your <span className="text-primary">Development Workflow?</span>
               </h2>
               <p className="text-gray-300 mb-6">
-                Sign up now for a 14-day free trial and experience the power of Walavie. No credit card required.
+                Walavie is open-source and free.
               </p>
               
               <div className="space-y-4 mb-8">
@@ -131,17 +131,8 @@ export const GetStartedSection = ({ className }: GetStartedSectionProps) => {
                     <i className="ri-check-line text-primary"></i>
                   </div>
                   <div>
-                    <h4 className="font-medium">Full-featured 14-day trial</h4>
-                    <p className="text-sm text-gray-400">Access all premium features for two weeks</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="bg-primary bg-opacity-10 p-1.5 rounded-lg">
-                    <i className="ri-check-line text-primary"></i>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">No credit card required</h4>
-                    <p className="text-sm text-gray-400">Free to try with no commitment</p>
+                    <h4 className="font-medium">Join the community support groups</h4>
+                    <p className="text-sm text-gray-400">Discord, Linkedin, X/Twitter, Youtube...</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -198,67 +189,10 @@ export const GetStartedSection = ({ className }: GetStartedSectionProps) => {
                 alt="AI-powered terminal interface" 
                 className="rounded-lg shadow-xl w-full h-auto border border-gray-700"
               />
-              <div className="absolute -bottom-5 -left-5 bg-zinc-950 p-4 rounded-lg border border-gray-700 shadow-lg text-center">
-                <div className="font-mono text-secondary font-bold">14 DAYS</div>
-                <div className="text-xs text-gray-400">Free Trial</div>
-              </div>
             </motion.div>
           </div>
         </div>
         
-        {/* Pricing Comparison */}
-        <div className="max-w-4xl mx-auto mt-16">
-          <h3 className="text-2xl font-bold text-center mb-10">Select the <span className="text-primary">Perfect Plan</span> for Your Needs</h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {plans.map((plan, index) => (
-              <div 
-                key={index}
-                className={cn(
-                  "bg-zinc-900 rounded-xl border overflow-hidden",
-                  plan.popular ? "border-primary shadow-glow" : "border-gray-700"
-                )}
-              >
-                {plan.popular && (
-                  <div className="absolute top-0 right-0 left-0 bg-primary text-white text-xs font-bold py-1 text-center">
-                    MOST POPULAR
-                  </div>
-                )}
-                <div className={cn("p-6", plan.popular && "pt-8")}>
-                  <h4 className="text-xl font-bold mb-1">{plan.name}</h4>
-                  <p className="text-gray-400 text-sm mb-4">{plan.description}</p>
-                  <div className="flex items-baseline mb-6">
-                    <span className="text-3xl font-bold">{plan.price}</span>
-                    <span className="text-gray-400 ml-1">{plan.period}</span>
-                  </div>
-                  <div className="space-y-3 mb-6">
-                    {plan.features.map((feature, fIndex) => (
-                      <div key={fIndex} className="flex items-center">
-                        {feature.included ? (
-                          <i className="ri-check-line text-secondary mr-2"></i>
-                        ) : (
-                          <i className="ri-close-line text-gray-500 mr-2"></i>
-                        )}
-                        <span className={feature.included ? "" : "text-gray-500"}>{feature.text}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <a 
-                    href="#" 
-                    className={cn(
-                      "block text-center px-6 py-2 rounded-md font-medium transition-all duration-200",
-                      plan.popular
-                        ? "bg-primary hover:bg-opacity-90 text-white"
-                        : "bg-zinc-950 hover:bg-gray-800 text-white"
-                    )}
-                  >
-                    Choose {plan.name}
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

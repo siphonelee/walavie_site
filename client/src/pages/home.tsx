@@ -49,7 +49,10 @@ const Home = () => {
         <HeroSection />
         <FeaturesSection />
         <IntegrationsSection />
+        {/* 
+        // calvin
         <TerminalDemoSection />
+        */}
         <TestimonialsSection />
         <GetStartedSection />
       </main>

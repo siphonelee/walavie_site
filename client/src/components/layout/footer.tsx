@@ -43,7 +43,6 @@ export const Footer = ({ className }: FooterProps) => {
             <ul className="space-y-2">
               <li><a href="#features" className="text-gray-400 hover:text-primary transition-colors duration-200">Features</a></li>
               <li><a href="#integrations" className="text-gray-400 hover:text-primary transition-colors duration-200">Integrations</a></li>
-              <li><a href="#pricing" className="text-gray-400 hover:text-primary transition-colors duration-200">Pricing</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Changelog</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Roadmap</a></li>
             </ul>
@@ -53,7 +52,6 @@ export const Footer = ({ className }: FooterProps) => {
             <h4 className="font-bold text-lightText mb-4">Resources</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Documentation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">API Reference</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Terminal Commands</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Blog</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Community</a></li>
@@ -64,8 +62,6 @@ export const Footer = ({ className }: FooterProps) => {
             <h4 className="font-bold text-lightText mb-4">Company</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Contact</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Privacy</a></li>
               <li><a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">Terms</a></li>
             </ul>
