@@ -1,5 +1,16 @@
 {
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/public/index.html" }
+    { "source": "/(.*)", "destination": "/public/index.html" },
+    {
+      "source": "/(.*)\\.tsx$",
+      "destination": "/$1.tsx",
+      "headers": {
+        "Content-Type": "text/javascript"
+      }
+    }
   ]
 }
+
