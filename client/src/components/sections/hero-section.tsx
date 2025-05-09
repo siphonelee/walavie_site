@@ -27,11 +27,11 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
             
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
               <span className="text-secondary font-mono">/&gt;</span> Modern interface with 
-              <span className="text-primary"> terminal and graphical</span> capabilities
+              <span className="text-primary"> terminal, graphical and AI</span> capabilities
             </h1>
             
             <p className="text-lg text-gray-300 max-w-lg">
-              Walavie provides powerful terminal and GUI tools for developers, data scientists, and tech professionals in a single, unified platform.
+              Walavie provides powerful terminal, GUI and AI tools for developers, data scientists, and tech professionals in a single, unified platform.
             </p>
             
             <div className="pt-4 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">

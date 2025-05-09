@@ -6,10 +6,10 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 createRoot(document.getElementById("root")!).render(
   <HelmetProvider>
     <Helmet>
-      <title>Walavie - Terminal & Graphical Interface Platform</title>
-      <meta name="description" content="A next-generation platform with powerful terminal and graphical capabilities for developers, data scientists, and tech professionals." />
-      <meta property="og:title" content="Walavie - Terminal & Graphical Interface Platform" />
-      <meta property="og:description" content="A next-generation platform with powerful terminal and graphical capabilities for developers, data scientists, and tech professionals." />
+      <title>Walavie - One-stop Smart Terminal with graphical & AI capabilities</title>
+      <meta name="description" content="A next-generation platform with powerful terminal, graphical and AI capabilities for developers, data scientists, and tech professionals." />
+      <meta property="og:title" content="Walavie - One-stop Smart Terminal with graphical & AI capabilities" />
+      <meta property="og:description" content="A next-generation platform with powerful terminal, graphical and AI capabilities for developers, data scientists, and tech professionals." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://walavie.com" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -20,7 +20,7 @@ export const Footer = ({ className }: FooterProps) => {
               />
             </div>
             <p className="text-gray-400 mb-4">
-              The next-generation platform with powerful terminal and graphical capabilities for developers and tech professionals.
+              The next-generation platform with powerful terminal, graphical and AI capabilities for developers and tech professionals.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">

@@ -38,7 +38,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>Walavie - Terminal & Graphical Interface Platform</title>
-        <meta name="description" content="A next-generation platform with powerful terminal and graphical capabilities for developers, data scientists, and tech professionals." />
+        <meta name="description" content="A next-generation platform with powerful terminal, graphical and AI capabilities for developers, data scientists, and tech professionals." />
       </Helmet>
       
       <ParticleBackground particleCount={50} />
