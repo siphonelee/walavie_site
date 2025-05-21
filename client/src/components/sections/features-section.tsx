@@ -37,7 +37,7 @@ export const FeaturesSection = ({ className }: FeaturesSectionProps) => {
     {
       icon: "ri-robot-line",
       title: "Reliable storage",
-      description: "Solana & Walrus as the backend service to ensure secure, highly available, decentralized data storage."
+      description: "Solana/Sui & Walrus as the backend service to ensure secure, highly available, decentralized data storage."
     },
     {
       icon: "ri-robot-line",
