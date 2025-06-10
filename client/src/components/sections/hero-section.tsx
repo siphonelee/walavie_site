@@ -38,7 +38,7 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
               <a href="#getstarted" className="bg-primary hover:bg-opacity-90 text-white px-6 py-3 rounded-md font-medium transition-all duration-200 hover:shadow-glow text-center">
                 Get Started <i className="ri-arrow-right-line ml-1"></i>
               </a>
-              <a href="#demo" className="border border-primary border-opacity-40 hover:bg-primary hover:bg-opacity-10 text-lightText px-6 py-3 rounded-md font-medium transition-all duration-200 text-center">
+              <a href="https://github.com/siphonelee/walavie" className="border border-primary border-opacity-40 hover:bg-primary hover:bg-opacity-10 text-lightText px-6 py-3 rounded-md font-medium transition-all duration-200 text-center">
                 <i className="ri-terminal-line mr-1"></i> Try Live Demo
               </a>
             </div>
