@@ -39,7 +39,7 @@ export const HeroSection = ({ className }: HeroSectionProps) => {
                 Get Started <i className="ri-arrow-right-line ml-1"></i>
               </a>
               <a href="https://github.com/siphonelee/walavie" className="border border-primary border-opacity-40 hover:bg-primary hover:bg-opacity-10 text-lightText px-6 py-3 rounded-md font-medium transition-all duration-200 text-center">
-                <i className="ri-terminal-line mr-1"></i> Try It
+                <i className="ri-terminal-line mr-1"></i> Give It a Try!
               </a>
             </div>
             
